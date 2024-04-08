@@ -3,6 +3,10 @@
   padding-bottom: 64px;
 }
 
+.maxWidthWrapper {
+  position: relative;
+}
+
 .header {
   padding-bottom: 64px;
   max-width: 65%;
@@ -35,4 +39,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  background-color: hsl(195deg, 20%, 86%);
+  top: 60%;
+  height: 40%;
+  width: 100%;
+  left: 0px;
 }
